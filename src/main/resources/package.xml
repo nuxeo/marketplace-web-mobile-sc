@@ -1,0 +1,22 @@
+<package type="addon" name="nuxeo-web-mobile-sc" version="@VERSION@">
+  <title>Nuxeo Web Mobile (DM)</title>
+  <description>
+    <p>Nuxeo Web Mobile (DM) provides a mobile UI experience to allow user browsing documents throught their smartphone.</p>
+  </description>
+  <home-page>https://github.com/nuxeo/nuxeo-web-mobile</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>testing</production-state>
+  <supported>false</supported>
+  <platforms>
+    <platform>cap-@VERSION@</platform>
+  </platforms>
+  <dependencies>
+    <package>nuxeo-web-mobile-dm:@VERSION@</package>
+    <package>nuxeo-social-collaboration:@VERSION@</package>
+  </dependencies>
+  <license>LGPL</license>
+  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+</package>
