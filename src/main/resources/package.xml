@@ -1,7 +1,7 @@
 <package type="addon" name="nuxeo-web-mobile-sc" version="@VERSION@">
-  <title>Nuxeo Web Mobile (DM)</title>
+  <title>Nuxeo Web Mobile (SC)</title>
   <description>
-    <p>Nuxeo Web Mobile (DM) provides a mobile UI experience to allow user browsing documents throught their smartphone.</p>
+    <p>Nuxeo Web Mobile (SC) provides an enhanced mobile experience with social features.</p>
   </description>
   <home-page>https://github.com/nuxeo/nuxeo-web-mobile</home-page>
   <vendor>Nuxeo</vendor>
