@@ -8,7 +8,7 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>nuxeo-marketplace-web-mobile-sc</artifactId>
+  <artifactId>nuxeo-web-mobile-sc-package</artifactId>
   <packaging>zip</packaging>
   <name>Marketplace package of Nuxeo Web Mobile (SC)</name>
 
