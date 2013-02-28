@@ -14,6 +14,7 @@
     <copy todir="${maven.project.build.directory}/marketplace">
       <fileset dir="src/main/resources" />
       <filterset>
+        <filter token="NUXEO.VERSION" value="${nuxeo.version}" />
         <filter token="VERSION" value="${maven.project.version}" />
       </filterset>
     </copy>

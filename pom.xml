@@ -4,13 +4,31 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>5.7-SNAPSHOT</version>
+    <version>5.6</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>nuxeo-web-mobile-sc-package</artifactId>
   <packaging>zip</packaging>
   <name>Marketplace package of Nuxeo Web Mobile (SC)</name>
+  <version>1.2-SNAPSHOT</version>
+
+  <properties>
+    <!-- Version used as a based version to prevent from mandatories HF -->
+    <nuxeo.version>5.6</nuxeo.version>
+    <!-- Expected version of nuxeo-web-mobile-* -->
+    <nuxeo.mobile.version>5.6.0-HF11</nuxeo.mobile.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.nuxeo.ecm.mobile</groupId>
+        <artifactId>nuxeo-web-mobile-sc</artifactId>
+        <version>${nuxeo.mobile.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <build>
     <plugins>

@@ -11,11 +11,11 @@
   <production-state>testing</production-state>
   <supported>false</supported>
   <platforms>
-    <platform>cap-@VERSION@</platform>
+    <platform>cap-@NUXEO.VERSION@</platform>
   </platforms>
   <dependencies>
     <package>nuxeo-web-mobile-dm:@VERSION@</package>
-    <package>nuxeo-social-collaboration:@VERSION@</package>
+    <package>nuxeo-social-collaboration:@NUXEO.VERSION@</package>
   </dependencies>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
