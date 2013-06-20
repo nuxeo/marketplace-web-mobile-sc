@@ -7,9 +7,10 @@
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
+  <require-terms-and-conditions-acceptance>true</require-terms-and-conditions-acceptance>
   <nuxeo-validation>nuxeo_certified</nuxeo-validation>
-  <production-state>testing</production-state>
-  <supported>false</supported>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
   <platforms>
     <platform>cap-@NUXEO.VERSION@</platform>
   </platforms>
@@ -17,6 +18,6 @@
     <package>nuxeo-web-mobile-dm:@VERSION@</package>
     <package>nuxeo-social-collaboration:@NUXEO.VERSION@</package>
   </dependencies>
-  <license>LGPL</license>
-  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+  <license>LGPL 2.1</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
 </package>
