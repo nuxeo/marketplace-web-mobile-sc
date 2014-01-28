@@ -13,6 +13,7 @@
   <supported>true</supported>
   <platforms>
     <platform>cap-@NUXEO.VERSION@</platform>
+    <platform>cap-5.8</platform>
   </platforms>
   <dependencies>
     <package>nuxeo-web-mobile-dm:@VERSION@</package>
