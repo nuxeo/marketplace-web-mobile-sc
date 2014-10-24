@@ -15,7 +15,7 @@
     <platform>cap-@NUXEO.VERSION@</platform>
   </platforms>
   <dependencies>
-    <package>nuxeo-web-mobile-dm:@VERSION@</package>
+    <package>nuxeo-web-mobile:@VERSION@</package>
     <package>nuxeo-social-collaboration:@NUXEO.VERSION@</package>
   </dependencies>
   <license>LGPL 2.1</license>
