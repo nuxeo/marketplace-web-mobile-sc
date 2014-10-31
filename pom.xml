@@ -10,7 +10,7 @@
   <artifactId>nuxeo-web-mobile-sc-package</artifactId>
   <packaging>zip</packaging>
   <name>Marketplace package of Nuxeo Web Mobile (SC)</name>
-  <version>1.5.4-SNAPSHOT</version>
+  <version>1.6.0-SNAPSHOT</version>
 
   <properties>
     <!-- Version used as a based version to prevent from mandatories HF -->
