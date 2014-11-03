@@ -3,20 +3,20 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>6.0-SNAPSHOT</version>
+    <version>6.0</version>
     <relativePath></relativePath>
   </parent>
 
   <artifactId>nuxeo-web-mobile-sc-package</artifactId>
   <packaging>zip</packaging>
   <name>Marketplace package of Nuxeo Web Mobile (SC)</name>
-  <version>1.6.0-SNAPSHOT</version>
+  <version>1.6.0</version>
 
   <properties>
     <!-- Version used as a based version to prevent from mandatories HF -->
-    <nuxeo.version>6.0-SNAPSHOT</nuxeo.version>
+    <nuxeo.version>6.0</nuxeo.version>
     <!-- Expected version of nuxeo-web-mobile-* -->
-    <nuxeo.mobile.version>6.0-SNAPSHOT</nuxeo.mobile.version>
+    <nuxeo.mobile.version>6.0</nuxeo.mobile.version>
   </properties>
 
   <dependencyManagement>
